@@ -1,0 +1,132 @@
+  body{
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+  }
+  .top{
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    z-index: 1;
+  }
+  h1 {
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  
+  #left {
+    text-transform: uppercase;
+    text-align: center;
+    padding:20px 100px 20px 100px;
+    border: 5px;
+    border-style:solid;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .link{
+    font-size: 20px;
+    color: rgb(0, 25, 22);
+  }
+  #right {
+    text-transform: uppercase;
+    text-align: center;
+    right:0px;
+    top:0;
+    border: 5px;
+    border-style:solid;
+    margin: 20px 0 0 20px;
+    padding: 20px 275px 20px 275px;
+  }
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+  }
+  #title {
+      text-shadow: 4px 4px rgb(0, 0, 0);
+  }
+  .contact{
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    margin-top: 320px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  img{
+    position:absolute;
+    left: 18px;
+    top: 10px;
+    width: 123px;
+    cursor: pointer;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+  .navigation{
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    top: 60px;
+    z-index: 1;
+  }
+  ul{
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    color: white;
+  }
+  li a { 
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 15px;
+    color:rgb(255, 255, 255)
+  }
+  li a:hover{
+    background-color: rgb(85, 85, 85);
+  }
+  .top a {
+    position: fixed;
+    z-index: 1;
+    left: 450px;
+    text-decoration: none;
+    display: block;
+    width: 40%;
+  }
+  .content-section{
+    position: relative;
+    margin: 150px 250px 250px 230px;
+    display: block;
+    width: 70%;
+    background-color: white;
+    padding: 10px 50px 50px 50px;
+    box-shadow: 1px 1px 5px 5px  rgb(215, 215, 215);
+    z-index: -1;
+  }
+  .content-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+  }  
+  .content-title-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+  }
+  .content{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+  }
+#title:hover{
+  text-shadow: 3px 3px red;
+}
