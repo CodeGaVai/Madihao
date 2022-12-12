@@ -1,16 +1,20 @@
+  *{
+    margin:0; 
+    padding: 0;
+  }
   body{
     margin: 0;
     background-color: rgb(241, 241, 241);
   }
-  .top{
+  #title{
     background-color: rgb(37, 37, 37);
     position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    padding: 0;
+    top:0;
+    padding: 10px;
     z-index: 1;
+    text-decoration: none;
   }
+
   h1 {
     font-family: "Audiowide", sans-serif;
     color: white;
@@ -97,14 +101,6 @@
   li a:hover{
     background-color: rgb(85, 85, 85);
   }
-  .top a {
-    position: fixed;
-    z-index: 1;
-    left: 450px;
-    text-decoration: none;
-    display: block;
-    width: 40%;
-  }
   .content-section{
     position: relative;
     margin: 150px 250px 250px 230px;
@@ -130,3 +126,24 @@
 #title:hover{
   text-shadow: 3px 3px red;
 }
+
+@media screen and (max-width: 2000px) {
+  #title{
+    width: 100%;
+    height: 70px;
+  }
+  .content-section{
+    width: 70%;
+    margin: 150px auto auto auto;
+  }
+  }
+@media screen and (max-width: 780px) {
+  #title{
+    width: 100%;
+    height: 70px;
+  }
+  .content-section{
+    width: 70%;
+    margin: 150px auto auto auto;
+  }
+  }
