@@ -9,6 +9,9 @@
   .logo_header{
     width: 100%;
   }
+  a{
+    width:900px;
+  }
   img{
     margin: 100px;
     width: 200px;
