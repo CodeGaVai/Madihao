@@ -6,7 +6,7 @@
     margin: 0;
     background-color: rgb(241, 241, 241);
   }
-  #title{
+  .logo_header{
     background-color: rgb(37, 37, 37);
     position: fixed;
     top:0;
