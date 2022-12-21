@@ -12,6 +12,10 @@
     padding: 10px;
     text-align: center;
   }
+  img{
+    padding: 10px;
+    background-color: black;
+  }
   h1 {
     font-family: "Audiowide", sans-serif;
     font-size: 30px;
