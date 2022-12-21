@@ -6,6 +6,9 @@
     margin: 0;
     background-color: rgb(241, 241, 241);
   }
+  .logo_header{
+    width: 100%;
+  }
   img{
     margin: 100px;
     width: 200px;
