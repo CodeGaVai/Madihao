@@ -14,6 +14,7 @@
     width:900px;
   }
   .logo{
+    z-index: 2;
     margin: 0 300px 0 300px;
     width: 500px;
   }
