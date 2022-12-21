@@ -11,6 +11,7 @@
   }
   .logo_header{
     z-index: 2;
+    background-color: black;
   }
   h1 {
     font-family: "Audiowide", sans-serif;
