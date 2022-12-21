@@ -6,16 +6,12 @@
     margin: 0;
     background-color: rgb(241, 241, 241);
   }
-  .logo_header{
-    background-color: rgb(37, 37, 37);
-    position: fixed;
-    top:0;
-    padding: 10px;
-    z-index: 1;
-    text-decoration: none;
-    width: 500px;
+  .top{
+    background-color: black;
   }
-
+  .logo_header{
+    z-index: 2;
+  }
   h1 {
     font-family: "Audiowide", sans-serif;
     color: white;
