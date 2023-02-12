@@ -180,6 +180,12 @@
     height: 15px;
     color:rgb(255, 255, 255)
   }
+ .logo_header{
+    width: 210px;
+    height: 70px;
+    padding: 10px 0 0 50px;
+    z-index: 1;
+  }
 
   }
 
