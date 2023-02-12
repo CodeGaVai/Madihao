@@ -1,0 +1,186 @@
+  *{
+    margin:0; 
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+  }
+  .header{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  .logo_header{
+    width: 210px;
+    height: 70px;
+    padding: 10px 0 0 50px;
+    z-index: 1;
+  }
+  .link{
+    font-size: 20px;
+    color: rgb(0, 25, 22);
+  }
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+  }
+  #title {
+      text-shadow: 4px 4px rgb(0, 0, 0);
+  }
+  .contact{
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    margin-top: 320px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  .navigation-inner{
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    width: 70%;
+    height: 45px;
+    right:0 ;
+    top: 17.5px;
+    z-index: 1;
+  }
+  ul{
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    color: white;
+  }
+  li a { 
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 15px;
+    color:rgb(255, 255, 255)
+  }
+  li a:hover{
+    text-decoration: underline rgb(255, 255, 255);
+    text-underline-position: under;
+    border-radius: 1rem;
+  }
+  .content-section{
+    position: relative;
+    margin: 150px 250px 250px 230px;
+    display: block;
+    width: 70%;
+    background-color: white;
+    padding: 10px 50px 50px 50px;
+    box-shadow: 1px 1px 5px 5px  rgb(215, 215, 215);
+    z-index: -1;
+  }
+  .content-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+  }  
+  .content-title-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+  }
+  .content{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+  }
+#title:hover{
+  text-shadow: 3px 3px red;
+}
+  /*--------------Ipad-----------*/
+@media screen and (max-width: 1000px) {
+  #title{
+    width: 100%;
+    height: 70px;
+  }
+  .content-section{
+    width: 70%;
+    margin: 150px auto auto auto;
+  }
+  .content-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+  }  
+  .content-title-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+  }
+  .content{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+  }
+  .navigation{
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    top: 60px;
+    z-index: 1;
+  }
+  li a { 
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 15px;
+    color:rgb(255, 255, 255)
+  }
+  }
+    /*--------------Ipad-----------*/
+  /*-------------Dien thoai--------*/
+@media screen and (max-width: 780px) {
+  #title{
+    width: 100%;
+    height: 70px;
+  }
+  .content-section{
+    width: 90%;
+    margin: 120px auto auto auto;
+    padding: 10px;
+  }
+  .content-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }  
+  .content-title-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  .content{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+  .navigation{
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    top: 60px;
+    z-index: 1;
+  }
+  li a { 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    height: 15px;
+    color:rgb(255, 255, 255)
+  }
+
+  }
+
+    /*-------------Dien thoai--------*/
